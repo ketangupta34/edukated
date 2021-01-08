@@ -1,0 +1,45 @@
+.contentComponent {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+}
+
+.heading {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.headingLeft {
+  display: flex;
+}
+
+.contentLabel {
+  margin-left: 10px;
+}
+
+.contentTime {
+  background-color: orange;
+  border-radius: 15px;
+  padding: 10px;
+}
+.displayImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.contentDescription {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: darkblue;
+  color: white;
+}

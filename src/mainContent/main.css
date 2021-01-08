@@ -1,0 +1,21 @@
+.mainContent {
+  width: 50%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.streamingNowList {
+  display: flex;
+}
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.lower {
+  margin-top: 20px;
+  height: 25%;
+  background-color: brown;
+}
