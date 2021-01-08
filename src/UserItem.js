@@ -7,7 +7,7 @@ function UserItem({ image, heading, description, cross }) {
       <img src={image} className="profileImage" />
       <div className="userComLabel">
         <h4>{heading}</h4>
-        <p style={{ fontSize: "15px" }}>{description}</p>
+        <p style={{ fontSize: "15px", color: "#818181" }}>{description}</p>
       </div>
     </div>
   );
