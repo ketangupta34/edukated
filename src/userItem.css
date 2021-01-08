@@ -1,0 +1,19 @@
+.userComponent {
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.profileImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.userComLabel {
+  margin: 0px 10px;
+}

@@ -1,0 +1,53 @@
+.navBar {
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.colored {
+  color: orange;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.navigationItem {
+  padding: 5px;
+  color: #afafaf;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.navLabel {
+  margin-left: 10px;
+}
+
+.navigationItem:hover {
+  border-left: 5px solid lightgray;
+  color: black;
+}
+.navigationItem:hover > .navIcons {
+  color: orange;
+}
+
+.userDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
