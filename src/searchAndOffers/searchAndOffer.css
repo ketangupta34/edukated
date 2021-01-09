@@ -1,0 +1,63 @@
+.searchAndOffers {
+  width: 30%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.SearchBar {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.search {
+  height: 10%;
+}
+.offers {
+  height: 65%;
+}
+
+.endOffers {
+  height: 20%;
+}
+
+.searchInput {
+  padding-left: 10px;
+  flex: 1;
+  background-color: #f1f1f1;
+  outline: none;
+  border-radius: 15px;
+}
+.searchButton {
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  background-color: orange;
+  color: white;
+  outline: none;
+  border-radius: 15px;
+}
+
+.specialOffer {
+  padding: 20px;
+  background-image: linear-gradient(to right, #b7ebff, #5cd1ff);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offerImage {
+  width: 80px;
+}
+
+.learnMore {
+  margin-top: 10px;
+  color: Orange;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+  outline: none;
+  background-color: white;
+}

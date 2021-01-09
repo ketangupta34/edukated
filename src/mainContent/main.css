@@ -6,16 +6,22 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.streamingNow {
+  height: 10%;
+}
+.centerContent {
+  height: 65%;
+}
+.lower {
+  height: 20%;
+}
+
 .streamingNowList {
   display: flex;
 }
-.content {
-  flex: 1;
-  display: flex;
-}
 
-.lower {
-  margin-top: 20px;
-  height: 25%;
-  background-color: brown;
+.content {
+  height: 94%;
+  display: flex;
 }

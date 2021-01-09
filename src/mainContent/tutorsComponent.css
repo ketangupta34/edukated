@@ -1,0 +1,17 @@
+.tutorComponent {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tutors {
+  display: flex;
+}
+
+.tutorLabel {
+  margin-left: 5px;
+}
