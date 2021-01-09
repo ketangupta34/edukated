@@ -4,6 +4,9 @@ import "./searchAndOffer.css";
 import ContentComponent from "../mainContent/ContentComponent";
 
 import background from "../assets/background.jpg";
+import background2 from "../assets/background2.jpg";
+import background3 from "../assets/background3.jpg";
+
 import displayImage from "../assets/displayImg.jpg";
 function SearchAndOffers() {
   return (
@@ -24,7 +27,7 @@ function SearchAndOffers() {
         <h3>Offers</h3>
         <div style={{ display: "flex" }}>
           <ContentComponent
-            background={background}
+            background={background3}
             image={displayImage}
             heading="Reactjs Course"
             author="Ketan Gupta"
@@ -35,7 +38,7 @@ function SearchAndOffers() {
 
         <div style={{ display: "flex" }}>
           <ContentComponent
-            background={background}
+            background={background2}
             image={displayImage}
             heading="Reactjs Course"
             author="Ketan Gupta"

@@ -3,6 +3,8 @@ import "./main.css";
 import StreamingNowIcon from "./StreamingNowIcon";
 
 import background from "../assets/background.jpg";
+import background2 from "../assets/background2.jpg";
+
 import displayImage from "../assets/displayImg.jpg";
 import ContentComponent from "./ContentComponent";
 import TutorsComponent from "./TutorsComponent";
@@ -38,7 +40,7 @@ function Main() {
             description="Learn to create websites using react in 60 minutes"
           />
           <ContentComponent
-            background={background}
+            background={background2}
             image={displayImage}
             heading="Reactjs Course"
             author="Ketan Gupta"

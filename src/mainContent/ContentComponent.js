@@ -1,9 +1,19 @@
 import React from "react";
 import "./contentComponent.css";
 
-function ContentComponent({ image, heading, author, time, description }) {
+function ContentComponent({
+  background,
+  image,
+  heading,
+  author,
+  time,
+  description,
+}) {
   return (
-    <div className="contentComponent">
+    <div
+      className="contentComponent"
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <div className="heading">
         <div className="headingLeft">
           <img src={image} className="displayImage" />
